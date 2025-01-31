@@ -7,8 +7,7 @@ Each R script is commented and gives step by step information on what to do, ple
 All the necessary packages and libraries are included in the R scripts. 
 
 ## Structure
-- `aggregate_area.R` - This script is not related to my project. It was written for soemone else's project where they are working on Alziehmer's in C.elegans.
-The script automates the process of counting the number of protein aggregates and finding their area. 
+- `aggregate_area.R` - This script automates the process of counting the number of protein aggregates in C.elegans under fluroscent microscope and finds the area of the aggregate. 
 - `bond_calculation_optimised.R` - This script find out the atom pairs in a homology docking model and then filters out all the atom pairs between whom the distance 
 is less than 6angstroms. 
 - `for_checking_distances_between_specific_residues_and_toxin_atoms.R` - This script was written to verify the calculations of the `bond_calculation_optimised.R` script. 
